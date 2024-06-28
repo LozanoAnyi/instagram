@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>InstaFront</title>
 </head>
@@ -28,6 +29,12 @@
             <div class="container-perfil">
                 <img id="foto-container-perfil" src="img/fotoPerfil.png" alt="Foto perfil"/>
             </div>
+            <div class="container-perfil desktop">
+                <img id="foto-container-perfil" src="img/fotoPerfil.png" alt="Foto perfil"/>
+            </div>
+            <div class="container-perfil desktop">
+                <img id="foto-container-perfil" src="img/fotoPerfil.png" alt="Foto perfil"/>
+            </div>
         </section>
         <section class="post">
             <div class="top-post">
@@ -36,10 +43,18 @@
             </div>
             <div class="info-post">
                 <img class="foto-perfil" src="img/fotoPerfil.png" alt="Foto perfil"/>
+                <div class="interactions">
+                    <ul>
+                        <li type="none"><i class="fa-regular fa-heart"></i></li>
+                        <li type="none"><i class="fa-regular fa-comment"></i></li>
+                        <li type="none"><i class="fa-regular fa-paper-plane"></i></li>
+                        <li type="none"><i class="fa-regular fa-face-smile"></i></li>
+                    </ul>
+                </div>
                 <div class="text">
                     <div class="options">
                         <p>Les gusta a lulipringless y otras personas</p>
-                        <p>Ver los 3,672 comentarios</p>
+                        <p class="comment">Ver los 3,672 comentarios</p>
                         <p>Gabriela Mancini Hola! que placer verte en frontend!!</p>
                         <p>Jonathan Gonzalez Te estabamos esperando!! Vamooh!</p>
                     </div>
@@ -47,7 +62,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer_container">
         <h4>Todos los derechos reservados a todos</h4>
     </footer>
 </body>
